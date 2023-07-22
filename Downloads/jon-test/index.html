@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projet4 ohmyfood</title>
+    <!--Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,500;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@1,6..96&family=EB+Garamond:ital,wght@1,500&family=Lobster&family=Raleway:ital,wght@0,100;0,300;0,400;1,900&family=Roboto:wght@100;400&family=Shrikhand&display=swap");
+    </style>
+
+    <!--fontawesome icons -->
+    <script
+      src="https://kit.fontawesome.com/e890b50b4f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--css responsive link -->
+
+    <!-- Desktop css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <!-- Body-->
+
+  <body>
+    <!-- for loading animation-->
+    <div class="loader-wrapper">
+      <div class="loader-box">
+        <div class="icon">
+          <i class="fas fa-utensils"></i>
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="logo">
+        <!-- Logo-->
+        <img
+          src="assets/Images/logo/ohmyfood.png"
+          width="200"
+          alt="log-oh-my-food"
+        />
+      </div>
+      <!-- location box-->
+      <div class="location">
+        <!-- location DoT-->
+
+        <i class="fa-solid fa-location-dot"></i>
+        <!-- location name-->
+
+        <p>Paris, bellevile</p>
+      </div>
+
+      <!-- annonce section -->
+      <section class="annonce">
+        <h1>Réservez le menu qui vous convient</h1>
+        <p>Réservez des restaurant d'exception, sélectionnés par nos soins</p>
+        <!-- Button to explorate restaurants-->
+        <div class="buton-cta">
+          <button class="btn btn-header">Explorez nos restaurant</button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- Section annoncement -->
+      <section class="function-3-stages">
+        <h2>Fonctionnement</h2>
+        <!-- stage container -->
+        <div class="three-stages-container">
+          <!-- box to select the restaurant-->
+
+          <div class="container-stage">
+            <div class="stage-number">
+              <div class="number" id="round-one">
+                <p>1</p>
+              </div>
+            </div>
+            <!-- Mobile icon-->
+            <i class="fa-solid fa-mobile-screen-button"></i>
+            <div class="restaurant-choice">
+              <p>Explorez nos restaurants</p>
+            </div>
+          </div>
+
+          <!--Stage 2-->
+          <div class="container-stage">
+            <div class="stage-number">
+              <div class="number">
+                <p>2</p>
+              </div>
+            </div>
+            <!-- Menu bar icon-->
+            <i class="fa-solid fa-bars"></i>
+            <!-- box to select the menu-->
+            <div class="restaurant-choice">
+              <p>Composez votre menu</p>
+            </div>
+          </div>
+
+          <!--Stage 3-->
+          <div class="container-stage">
+            <div class="stage-number">
+              <div class="number">
+                <p>3</p>
+              </div>
+            </div>
+            <!-- Restaurant icon-->
+            <i class="fa-solid fa-store"></i>
+            <!--Go eat at the restaurant-->
+            <div class="restaurant-choice">
+              <p>Degustez au restaurant</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Restaurant Card section-->
+      <section class="restaurant-card-sec">
+        <h3 class="h3">Restaurants</h3>
+        <div class="restaurant-container">
+          <!-- Restaurant Card 1-->
+          <div class="restaurant-card">
+            <a href="./Restaurant/menu-la-palette-du-gout.html">
+              <div class="img-card">
+                <img
+                  src="assets/Images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                  alt="photo la palette du gout"
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="info-card">
+                <!--Animation heart box-->
+                <div class="animatiion-heart">
+                  <!--Animation heart box visible heart-->
+                  <i class="fa-regular fa-heart"></i>
+                  <!--Animation heart box hidden heart-->
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="card-food-price">
+                  <h4>La palette du gout</h4>
+                  <p>Menilmontant</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Restaurant Card 2-->
+          <div class="restaurant-card">
+            <a href="./Restaurant/menu-la-note-enchantee.html">
+              <div class="img-card-2">
+                <p class="novelty"><b>Nouveau</b></p>
+                <img
+                  src="assets/Images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                  alt="photo"
+                  width="00"
+                  height="200"
+                />
+              </div>
+              <div class="info-card">
+                <!--Animation heart box-->
+                <div class="animatiion-heart">
+                  <!--Animation heart box visible heart-->
+                  <i class="fa-regular fa-heart"></i>
+                  <!--Animation heart box hidden heart-->
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="card-food-price">
+                  <h4>La note enchantée</h4>
+                  <p>Charonne</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- Restaurant Card 3-->
+
+        <div class="restaurant-container">
+          <div class="restaurant-card">
+            <a href="/Restaurant/menu-A-la-francaise.html">
+              <div class="img-card-2">
+                <p class="novelty"><b>Nouveau </b></p>
+                <img
+                  src="assets/Images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg"
+                  alt="photo"
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="info-card">
+                <!--Animation heart box-->
+                <div class="animatiion-heart">
+                  <!--Animation heart box visible heart-->
+                  <i class="fa-regular fa-heart"></i>
+                  <!--Animation heart box hidden heart-->
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="card-food-price">
+                  <h4>À la française</h4>
+                  <p>Cité</p>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <!-- Restaurant Card 4-->
+          <div class="restaurant-card">
+            <a href="/Restaurant/menu-le-delice-des-sens.html">
+              <div class="img-card">
+                <img
+                  src="assets/Images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+                  alt="photo"
+                  width="200"
+                  height="200"
+                />
+              </div>
+              <div class="info-card">
+                <!--Animation heart box-->
+                <div class="animatiion-heart">
+                  <!--Animation heart box visible heart-->
+                  <i class="fa-regular fa-heart"></i>
+                  <!--Animation heart box hidden heart-->
+                  <i class="fa-solid fa-heart"></i>
+                </div>
+                <div class="card-food-price">
+                  <h4>Le délice des sens</h4>
+                  <p>Folle-melicourt</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <h4>OhMyFood</h4>
+        <ul class="footer-links">
+          <li>
+            <i class="fa-sharp fa-solid fa-utensils"> </i
+            ><a href="#">Proposer un restaurant</a>
+          </li>
+          <li>
+            <i class="fa-solid fa-handshake"></i
+            ><a href="#">Devenir partenaire</a>
+          </li>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
